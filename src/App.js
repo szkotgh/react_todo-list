@@ -120,7 +120,7 @@ function App() {
                   type="checkbox"
                   checked={todo.completed}
                   onChange={() => toggleComplete(todo.id)}
-                  className="mt-1"
+                  className="mt-3"
                 />
                 <div>
                   <p className={`font-medium ${todo.completed ? 'line-through text-gray-400' : ''}`}>
